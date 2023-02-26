@@ -4,18 +4,6 @@ from telebot import types
 bot_token = '6225139341:AAExDUMuTYt88zrK8AJ0oKrU0apoEq2gheA'
 bot = telebot.TeleBot(bot_token, parse_mode=None)
 
-# inline keyboard button
-# def order_markups():
-#     inline_buttons = [
-#         telebot.types.InlineKeyboardButton(
-#             text="Green Card haqida ma'lumot", url="https://telegra.ph/Green-Card-haqida-malumot-10-03"
-#         )
-#     ]
-#     reply_markup = telebot.types.InlineKeyboardMarkup(row_width=True)
-#     reply_markup.add(*inline_buttons)
-#     return reply_markup
-
-
 
 # start button
 def start_button_markup():
